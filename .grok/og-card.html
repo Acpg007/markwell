@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Markwell OG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    @font-face {
+      font-family: "Liberation Sans Narrow";
+      src: url("file:///usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Liberation Sans Narrow";
+      src: url("file:///usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #16181c;
+    }
+    .card {
+      position: relative;
+      width: 1200px;
+      height: 630px;
+      background:
+        radial-gradient(900px 420px at 50% 18%, #22262c 0%, #16181c 62%),
+        #16181c;
+      color: #f4f0e8;
+      overflow: hidden;
+    }
+    .grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(138, 143, 152, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(138, 143, 152, 0.06) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 20%, transparent 75%);
+      pointer-events: none;
+    }
+    .spine {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 8px;
+      height: 100%;
+      background: #9b1c1c;
+    }
+    .meta {
+      position: absolute;
+      top: 36px;
+      left: 72px;
+      right: 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Source Sans 3", "Liberation Sans", sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #8a8f98;
+    }
+    .lockup {
+      position: absolute;
+      left: 50%;
+      top: 168px;
+      transform: translateX(-50%);
+      width: 780px;
+      text-align: center;
+    }
+    .mark {
+      display: inline-flex;
+      width: 36px;
+      height: 36px;
+      margin-bottom: 18px;
+    }
+    .brand {
+      margin: 0;
+      font-family: "Barlow Condensed", "Liberation Sans Narrow", sans-serif;
+      font-weight: 700;
+      font-size: 108px;
+      line-height: 0.88;
+      letter-spacing: 0.16em;
+      text-indent: 0.16em;
+      text-transform: uppercase;
+      color: #f4f0e8;
+    }
+    .entity {
+      margin: 14px 0 0;
+      font-family: "Barlow Condensed", "Liberation Sans Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: 0.62em;
+      text-indent: 0.62em;
+      text-transform: uppercase;
+      color: #f4f0e8;
+    }
+    .rule {
+      width: 132px;
+      height: 3px;
+      margin: 22px auto 18px;
+      background: #9b1c1c;
+    }
+    .lines {
+      margin: 0;
+      font-family: "Source Sans 3", "Liberation Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.34em;
+      text-indent: 0.34em;
+      text-transform: uppercase;
+      color: #8a8f98;
+    }
+    .products {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 1200px;
+      height: 250px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="grid"></div>
+    <div class="spine"></div>
+    <div class="meta">
+      <span>Est. 2006</span>
+      <span>Kingdom of Bahrain</span>
+    </div>
+    <div class="lockup">
+      <svg class="mark" viewBox="0 0 16 16" aria-hidden="true">
+        <rect width="16" height="16" fill="#16181c" />
+        <rect width="2" height="16" fill="#9b1c1c" />
+        <path fill="#f4f0e8" d="M4 13V3h2l2 4.5L10 3h2v10h-2V7L8 11 6 7v6H4z" />
+      </svg>
+      <h1 class="brand">Markwell</h1>
+      <p class="entity">International</p>
+      <div class="rule"></div>
+      <p class="lines">Pipes · Fittings · Flanges · Valves</p>
+    </div>
+    <svg class="products" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="steelBody" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#c5c9ce" />
+          <stop offset="38%" stop-color="#8a8f98" />
+          <stop offset="100%" stop-color="#4a4f56" />
+        </linearGradient>
+        <linearGradient id="steelDark" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#3c4148" />
+          <stop offset="50%" stop-color="#6d737c" />
+          <stop offset="100%" stop-color="#3c4148" />
+        </linearGradient>
+        <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#a8adb4" />
+          <stop offset="100%" stop-color="#5c6168" />
+        </linearGradient>
+      </defs>
+
+      <!-- floor plane -->
+      <path d="M40 214 H1160" stroke="#2c3138" stroke-width="2" />
+      <path d="M80 226 H1120" stroke="#9b1c1c" stroke-width="2" opacity="0.85" />
+
+      <!-- long pipe, left -->
+      <g transform="translate(70 148)">
+        <rect x="18" y="10" width="250" height="46" fill="url(#steelDark)" />
+        <ellipse cx="18" cy="33" rx="14" ry="23" fill="#2a2e34" stroke="#8a8f98" stroke-width="2" />
+        <ellipse cx="268" cy="33" rx="16" ry="23" fill="url(#face)" stroke="#8a8f98" stroke-width="2" />
+        <ellipse cx="272" cy="33" rx="8" ry="12" fill="#16181c" />
+        <path d="M30 16 H258" stroke="#d0d3d7" stroke-width="1.4" opacity="0.55" />
+      </g>
+
+      <!-- elbow: thick-walled 90° tube -->
+      <g transform="translate(292 108)" fill="none">
+        <path d="M0 82 H38 A50 50 0 0 0 88 32 V0" stroke="#8a8f98" stroke-width="34" stroke-linecap="butt" />
+        <path d="M0 82 H38 A50 50 0 0 0 88 32 V0" stroke="#4a4f56" stroke-width="18" stroke-linecap="butt" />
+      </g>
+      <g transform="translate(292 108)">
+        <rect x="-10" y="64" width="20" height="36" rx="2" fill="url(#face)" stroke="#8a8f98" stroke-width="1.6" />
+        <rect x="70" y="-10" width="36" height="20" rx="2" fill="url(#face)" stroke="#8a8f98" stroke-width="1.6" />
+      </g>
+
+      <!-- weld-neck flange -->
+      <g transform="translate(500 132)">
+        <circle r="68" fill="#2a2e34" stroke="#8a8f98" stroke-width="3" />
+        <circle r="54" fill="none" stroke="#6a7078" stroke-width="1.5" />
+        <circle r="34" fill="none" stroke="#9b1c1c" stroke-width="3" />
+        <circle r="18" fill="#16181c" stroke="#c5c9ce" stroke-width="2.5" />
+        <g fill="#8a8f98">
+          <circle cx="58" cy="0" r="5.5" />
+          <circle cx="41" cy="41" r="5.5" />
+          <circle cx="0" cy="58" r="5.5" />
+          <circle cx="-41" cy="41" r="5.5" />
+          <circle cx="-58" cy="0" r="5.5" />
+          <circle cx="-41" cy="-41" r="5.5" />
+          <circle cx="0" cy="-58" r="5.5" />
+          <circle cx="41" cy="-41" r="5.5" />
+        </g>
+      </g>
+
+      <!-- gate valve with clipped handwheel spokes -->
+      <g transform="translate(710 112)">
+        <path d="M-34 68 L0 36 L34 68 L0 100 Z" fill="url(#steelBody)" stroke="#8a8f98" stroke-width="2" />
+        <rect x="-76" y="50" width="44" height="36" rx="3" fill="url(#face)" stroke="#8a8f98" stroke-width="1.8" />
+        <rect x="32" y="50" width="44" height="36" rx="3" fill="url(#face)" stroke="#8a8f98" stroke-width="1.8" />
+        <rect x="-84" y="44" width="10" height="48" rx="1" fill="#6a7078" />
+        <rect x="74" y="44" width="10" height="48" rx="1" fill="#6a7078" />
+        <rect x="-5" y="18" width="10" height="22" fill="#8a8f98" />
+        <g>
+          <circle cx="0" cy="8" r="22" fill="#2a2e34" />
+          <g stroke="#f4f0e8" stroke-width="2.2" stroke-linecap="round">
+            <line x1="0" y1="-12" x2="0" y2="28" />
+            <line x1="-18" y1="8" x2="18" y2="8" />
+            <line x1="-13" y1="-6" x2="13" y2="22" />
+            <line x1="13" y1="-6" x2="-13" y2="22" />
+          </g>
+          <circle cx="0" cy="8" r="22" fill="none" stroke="#f4f0e8" stroke-width="3" />
+          <circle cx="0" cy="8" r="5.5" fill="#9b1c1c" />
+        </g>
+      </g>
+
+      <!-- short pipe / coupling, right -->
+      <g transform="translate(860 150)">
+        <rect x="16" y="12" width="170" height="40" fill="url(#steelDark)" />
+        <ellipse cx="16" cy="32" rx="12" ry="20" fill="#2a2e34" stroke="#8a8f98" stroke-width="2" />
+        <ellipse cx="186" cy="32" rx="14" ry="20" fill="url(#face)" stroke="#8a8f98" stroke-width="2" />
+        <ellipse cx="190" cy="32" rx="7" ry="10" fill="#16181c" />
+        <rect x="70" y="8" width="28" height="48" rx="2" fill="#5c6168" stroke="#8a8f98" stroke-width="1.5" />
+        <path d="M28 16 H176" stroke="#d0d3d7" stroke-width="1.2" opacity="0.5" />
+      </g>
+    </svg>
+  </div>
+</body>
+</html>
