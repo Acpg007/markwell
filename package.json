@@ -75,6 +75,7 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
+    "@tanstack/nitro-v2-vite-plugin": "latest",
     "@eslint/js": "^9.20.0",
     "@types/node": "^22.16.5",
     "@types/pg": "^8.11.10",
